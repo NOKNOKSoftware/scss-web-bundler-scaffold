@@ -23,5 +23,13 @@ If you have any issues during dependency installation, try reinstalling python.
 Once all pre-requisites are installed, you can run the following command to scaffold a new bundler project.
 ``` sh
 python -m cookiecutter https://github.com/NOKNOKSoftware/sass-web-bundler-scaffold
+
 ```
 
+## Cookiecutter props
+- ```package_slug``` - Set's the package slug, this is also the name of the projects output folder.
+
+
+## Gulp Commands
+- ```gulp build``` - Bundle scss files and export css to ```dist/``` directory
+- ```gulp watch``` - Watch scss files for changes and automatically build when files are changed

@@ -12,4 +12,4 @@ gulp.task( 'build', () => {
         .pipe( gulp.dest( './dist' ) )
 } );
 
-gulp.task( 'watch', () => gulp.watch( SCSS_SRC, parallel( 'build' ) ) );
+gulp.task( 'watch', () => gulp.watch( SCSS_SRC, gulp.parallel( 'build' ) ) );
