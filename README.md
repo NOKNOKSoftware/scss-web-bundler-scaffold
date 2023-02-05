@@ -1,5 +1,5 @@
-# Sass Web Bundler Scaffold
-Automatic scaffolding for a sass web bundles powered by gulp-sass. Geared towards WordPress development
+# Scss Web Bundler Scaffold
+Automatic scaffolding for a scss web bundles powered by gulp-sass. Geared towards WordPress development
 
 ## Prerequists:
 Make sure you install the following
@@ -22,7 +22,7 @@ If you have any issues during dependency installation, try reinstalling python.
 ## Creating a new Typescript bundle project
 Once all pre-requisites are installed, you can run the following command to scaffold a new bundler project.
 ``` sh
-python -m cookiecutter https://github.com/NOKNOKSoftware/sass-web-bundler-scaffold
+python -m cookiecutter https://github.com/NOKNOKSoftware/scss-web-bundler-scaffold
 
 ```
 
